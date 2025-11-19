@@ -1,0 +1,5 @@
+control flow statement (control statement ) flow of control
+ 1. sequencial atatement 
+ 2. decision making / selection statement 
+ 3. loop 
+ 4. switch case 
