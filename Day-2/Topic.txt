@@ -1,0 +1,12 @@
+pointer : 
+          char *str ="India" 
+          advantages : 1. size nhi dena pada 
+                      2. like a array variable we can use this
+                      3. add automatically null character
+                      `4. there is no limit of the size
+
+          char arr[6]="India"
+
+          char arr[]={'I', 'N','D','I','A','\0'}  null character 
+
+heap memory : unused part of the memory
