@@ -1,0 +1,15 @@
+// fgets(array_name,size,stdin)
+  // scanf for multiword: scanf("%[^\n]s",str)
+  // null character means that is not assigned value 
+
+
+  int i, count ;
+  char ch=''
+  for(i=0;str[i]!='\0';i++){
+    ch=str[i];
+    if(ch>='A'&& ch<='Z'){
+        ch=ch+32;
+    }
+  }
+  if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
+  count++
