@@ -9,18 +9,14 @@ int main() {
 
     printf("Enter the size of the string: ");
     scanf("%d", &size);
-    getchar();   // clear newline
-
+    getchar();   
     char str[size];
-
     printf("Enter the string: ");
     fgets(str, size, stdin);
-
     printf("You entered: %s", str);
-
     for(int i = 0; str[i] != '\0'; i++) {
 
-        char ch = str[i];   //  assign character properly
+        char ch = str[i]; 
 
         if(ch=='A'|| ch=='E' || ch=='I' || ch=='O' || ch=='U' ||
            ch=='a'|| ch=='e' || ch=='i' || ch=='o' || ch=='u') {

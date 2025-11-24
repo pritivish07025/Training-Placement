@@ -3,5 +3,6 @@
 
 
 2. find the largest number
+3. count the no of consonents in a given string
 
 

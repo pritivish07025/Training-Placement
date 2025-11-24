@@ -3,7 +3,3 @@
 
 //using switch cases
 
-#include <stdio.h>
-int main(){
-    
-}

@@ -2,3 +2,4 @@
 //(note : there much be any rstriction on no of character also dont use any predefined function )
 
 // scanf("%[^n]s",array_name)
+
