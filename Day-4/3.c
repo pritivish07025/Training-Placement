@@ -1,5 +1,4 @@
 // find the digital root 
-// find the digital root
 #include <stdio.h>
 
 int main() {
@@ -10,7 +9,7 @@ int main() {
     int sum, rem;
 
     while (n > 9) {
-        sum = 0;   
+        sum = 0;   // reset sum
 
         while (n != 0) {
             rem = n % 10;

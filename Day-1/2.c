@@ -1,25 +1,31 @@
-// prime number range 
+// Count the prime numbers between 1 and n
+
 #include <stdio.h>
+#include <stdbool.h>
 
 int main() {
-    int n, count = 0;
-    printf("Enter the number: ");
+    int n;
+    int count = 0;
+
+    printf("Enter number: ");
     scanf("%d", &n);
-   for (int num = 2; num <= n; num++) {
-        int isPrime = 1;
-        for (int i = 2; i * i <= num; i++) {
-            if (num % i == 0) {
-                isPrime = 0;
+
+    for (int i = 2; i <= n; i++) {
+        bool isPrime = true;
+
+        for (int j = 2; j * j <= i; j++) {
+            if (i % j == 0) {
+                isPrime = false;
                 break;
             }
         }
 
-        if (isPrime == 1) {
+        if (isPrime) {
             count++;
         }
     }
 
-    printf("Total prime numbers from 1 to %d = %d", n, count);
+    printf("Total prime numbers = %d\n", count);
 
     return 0;
 }
